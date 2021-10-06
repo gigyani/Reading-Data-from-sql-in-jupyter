@@ -1,0 +1,2 @@
+# Reading-Data-from-sql-in-jupyter
+Our first step will be to create a connection to our SQL database. A few common SQL databases used with Python include:  Microsoft SQL Server Postgres MySQL AWS Redshift AWS Aurora Oracle DB Terradata Db2 Family Many, many others Each of these databases will require a slightly different setup, and may require credentials (username &amp; password), tokens, or other access requirements. We'll be using sqlite3 to connect to our database, but other connection packages include:  SQLAlchemy (most common) psycopg2 MySQLdb
